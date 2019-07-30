@@ -1,0 +1,84 @@
+.oculto{
+    display: none;
+}
+
+.main-title{
+    padding-left: 20px;
+    color: #022600;
+}
+
+/*content*/
+.wrapper-cont{
+    overflow: auto;
+}
+
+.wrapper-cont h1{
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.wrapper-cont h3{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.cards-cont{
+    overflow: auto;
+    padding: 10px 10%;
+}
+
+.card{
+    float: left;
+    margin: 20px 2%;
+    width: 29.33%;
+    box-shadow: 5px 10px 8px rgb(199, 199, 199);
+    text-align: center;
+}
+
+.img-card{
+    
+    height: 260px;
+}
+
+.card h4{
+    padding: 10px 0;
+}
+
+.search-box{
+    width: 290px;
+    padding: 10px 10px;
+    margin: 10px 5px 10px 50px;
+    font-size: 1rem;
+}
+
+.search-btn{
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background-color: #487252;
+    border-radius: 10px;
+}
+
+/*cambios para movil*/
+@media(max-width: 1080px){
+
+    .card{
+        float: left;
+        margin: 20px 0;
+        width: 50%;
+        box-shadow: 5px 10px 8px rgb(199, 199, 199);
+        text-align: center;
+    }
+}
+
+@media(max-width: 750px){
+    
+    .card{
+        float: left;
+        margin: 20px 0;
+        width: 100%;
+        box-shadow: 5px 10px 8px rgb(199, 199, 199);
+        text-align: center;
+    }
+}
