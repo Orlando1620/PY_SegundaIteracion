@@ -3,7 +3,7 @@
 let AdminLib = require('./adminLib.model');
 let Libreria = require('../libreria/libreria.model');
 var nodemailer = require('nodemailer');
-
+//hola
 module.exports.registrar_Admin = function (req, res) {
     AdminLib.findOne({ correo: req.body.correo }).then(function (user) {
 
